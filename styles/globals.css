@@ -8,3 +8,7 @@ html {
     /*secondary font sans-serif added in case browser does not support*/
     font-family: 'Raleway', sans-serif;
 }
+
+.custom-img {
+    background-image: url('../public/grogu-and-cat.DNG')
+}
