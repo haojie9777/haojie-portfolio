@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import Link from 'next/link'
 
 function Navbar() {
     const [nav, setNav] = useState(false);
@@ -31,20 +31,20 @@ function Navbar() {
             <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
                 <Link href='/'>
                     <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-                        About</h1>
+                        Hao Jie</h1>
                 </Link>
                 <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
                     <li className='p-4'>
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/#about'>About</Link>
+                    <Link href='/about'>Experience</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/projects'>Projects</Link>
+                    <Link href='/projects'>Work</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/contact'>Contact</Link>
+                    <Link href='/contact'>Contact</Link>
                     </li>
                 </ul>
 
@@ -65,7 +65,7 @@ function Navbar() {
                             <Link href='/'>Home</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/#about'>About</Link>
+                            <Link href='/about'>About</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/projects'>Projects</Link>
