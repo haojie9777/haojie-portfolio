@@ -6,9 +6,9 @@
 html {
     scroll-behavior: smooth;
     /*secondary font sans-serif added in case browser does not support*/
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
 }
 
 .custom-img {
-    background-image: url('../public/grogu-and-cat.DNG')
+    background-image: url('https://images.unsplash.com/photo-1579547944064-0180251f94c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=678&q=80')
 }
