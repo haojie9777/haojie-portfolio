@@ -31,20 +31,20 @@ function Navbar() {
             <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
                 <Link href='/'>
                     <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-                        Hao Jie</h1>
+                        Public Class Portfolio  {'{'}</h1>
                 </Link>
                 <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
                     <li className='p-4'>
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4'>
-                    <Link href='/about'>Experience</Link>
+                    <Link href='/#experience'>Experience</Link>
                     </li>
                     <li className='p-4'>
-                    <Link href='/projects'>Work</Link>
+                    <Link href='/#work'>Work</Link>
                     </li>
                     <li className='p-4'>
-                    <Link href='/contact'>Contact</Link>
+                    <Link href='/#connect'>Connect</Link>
                     </li>
                 </ul>
 

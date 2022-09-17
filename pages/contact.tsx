@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from '../components/Contact'
+import Contact from '../components/Connect'
 import Hero from '../components/Hero'
 
 const contact = () => {

@@ -1,14 +1,17 @@
 import React from 'react'
 
 //component generated w shortcut "rafce"
-const Hero = ({heading, message}) => {
+const Hero = () => {
   return (
-    <div id='hero' className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
-      {/* Overlay"*/}
-      <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2] '/>
+    <div id='hero' className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
+
         <div className='p-5 text-white z-[2] mt-[-10rem]'>
-          <h2 className='text-5xl font-bold'>{heading}</h2>
-          <p className='py-5 text-xl'>{message}</p>
+          <h1 className='text-5xl font-bold'>Hao Jie</h1>
+          <p className='py-5 text-xl'>// Software engineer based in Singapore</p>
+          <p className='py-3 text-xl'>Currently a backend engineer working in the financial sector,<br/>
+          handling challenges relating to microservices and distributed systems.<br/>
+          </p>
+          <p className='py-7 text-xl'>Feel free to connect with me regarding any opportunities, or even for coffee :D</p>
         </div>
     </div>
   )
