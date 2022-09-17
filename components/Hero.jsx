@@ -1,6 +1,5 @@
 import React from 'react'
 
-//component generated w shortcut "rafce"
 const Hero = () => {
   return (
     <div id='hero' className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
