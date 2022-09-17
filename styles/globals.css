@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+    scroll-behavior: smooth;
+    /*secondary font sans-serif added in case browser does not support*/
+    font-family: 'Raleway', sans-serif;
+}
