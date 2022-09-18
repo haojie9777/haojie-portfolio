@@ -35,16 +35,16 @@ function Navbar() {
                 </Link>
                 <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
                     <li className='p-4'>
-                        <Link href='/'>// Home</Link>
+                        <Link href='/'>&#47;&#47; Home</Link>
                     </li>
                     <li className='p-4'>
-                    <Link href='/#experience'>// Experience</Link>
+                    <Link href='/#experience'>&#47;&#47; Experience</Link>
                     </li>
                     <li className='p-4'>
-                    <Link href='/#work'>// Work</Link>
+                    <Link href='/#work'>&#47;&#47; Work</Link>
                     </li>
                     <li className='p-4'>
-                    <Link href='/#connect'>// Connect</Link>
+                    <Link href='/#connect'>&#47;&#47; Connect</Link>
                     </li>
                 </ul>
 
