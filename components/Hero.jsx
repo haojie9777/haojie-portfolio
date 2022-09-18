@@ -8,7 +8,7 @@ const Hero = () => {
           <h1 className='text-7xl font-bold'>Hao Jie</h1>
           <p className='py-5 text-xl'>Software engineer based in Singapore</p>
           <p className='py-3 text-xl'>Currently a backend engineer working in the financial sector,<br/>
-          handling challenges relating to microservices and distributed systems.<br/>
+          handling challenges pertaining to microservices and distributed systems.<br/>
           </p>
           <p className='py-7 text-xl'>Feel free to connect with me regarding any opportunities, or even for coffee :D</p>
         </div>
