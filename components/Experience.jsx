@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div id='Experience' className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
+    <div id='Experience' className='flex items-center justify-center h-screen '>
       <div className='p-5 text-white z-[2] mt-[-10rem]'>
         <h2 className='text-5xl font-bold'>Experience (work in progress...)</h2>
         <p className='py-5 text-xl'>Backend:</p>
