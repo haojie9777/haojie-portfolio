@@ -9,11 +9,11 @@ function Navbar() {
         setDropDown(!dropDown);
     }
     return (
-            <div className= 'fixed left-0 -top-3 w-full z-10 backdrop-blur-sm grid '>
-                <div className='m-auto items-center p-3 text-white'>
-                    <ul className='hidden sm:flex'>
-                        <li className='p-1'>
-                            <h1 className='font-bold text-4xl text-white'>Hao Jie</h1>
+            <div className= 'fixed left-0 -top-3 w-full z-10 backdrop-blur-sm'>
+                <div className='m-auto p-3 text-white'>
+                    <ul className='flex justify-center'>
+                        <li className='p-1 mr-10'>
+                            <h1 className='font-bold text-4xl text-white'>🌴Hao Jie</h1>
                         </li>
                         <li className='p-4'>
                             <Link href='/'>&#47;&#47; Home</Link>
