@@ -1,38 +1,20 @@
-import React, { useState, useEffect } from 'react'
+import React, {useState} from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import Link from 'next/link'
 
 function Navbar() {
     const [dropDown, setDropDown] = useState(false);
-    const [color, setColor] = useState('transparent');
-    const [textColor, setTextColor] = useState('white');
-
 
     const handleDropDown = () => {
         setDropDown(!dropDown);
     }
-
-    useEffect(() => {
-        const changeColor = () => {
-            if (window.scrollY >= 40) {
-                setColor('#ffffff');
-                setTextColor('#000000');
-            } else {
-                setColor('transparent');
-                setTextColor('#ffffff');
-            }
-        };
-        window.addEventListener('scroll', changeColor)
-    }, [])
-
     return (
-            <div style={{ backgroundColor: `${color}`}} className= 'fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-                <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
-                    <Link href='/'>
-                        <h1 className='font-bold text-4xl text-emerald-500'>
-                            Hao Jie</h1>
-                    </Link>
-                    <ul style={{ color: `${textColor}`}} className='hidden sm:flex'>
+            <div className= 'fixed left-0 -top-3 w-full z-10 backdrop-blur-sm grid '>
+                <div className='m-auto items-center p-3 text-white'>
+                    <ul className='hidden sm:flex'>
+                        <li className='p-1'>
+                            <h1 className='font-bold text-4xl text-white'>Hao Jie</h1>
+                        </li>
                         <li className='p-4'>
                             <Link href='/'>&#47;&#47; Home</Link>
                         </li>
@@ -49,8 +31,8 @@ function Navbar() {
     
                     {/* Mobile Button */}
                     <div onClick={handleDropDown} className='block sm:hidden z-10'>
-                        {dropDown ? <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
-                            : <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />}
+                        {dropDown ? <AiOutlineClose size={20} />
+                            : <AiOutlineMenu size={20} />}
                     </div>
                     {/* Mobile Menu */}
                     <div className={
