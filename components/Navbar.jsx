@@ -10,27 +10,27 @@ function Navbar() {
     }
     return (
             <div className= 'fixed left-0 -top-3 w-full z-10 backdrop-blur-sm'>
-                <div className='m-auto p-3 text-white'>
-                    <ul className='flex justify-center'>
-                        <li className='p-1 mr-10'>
-                            <h1 className='font-bold text-4xl text-white'>🌴Hao Jie</h1>
+                <div className='flex justify-center m-auto p-3 text-white'>
+                    <ul className='flex justify-center items-center'>
+                        <li className='p-4 mr-10'>
+                            <h1 className='font-bold text-2xl text-white'>🌴Hao Jie</h1>
                         </li>
-                        <li className='p-4'>
+                        <li className='p-4 hidden md:block'>
                             <Link href='/'>&#47;&#47; Home</Link>
                         </li>
-                        <li className='p-4'>
+                        <li className='p-4 hidden md:block'>
                         <Link href='/#experience'>&#47;&#47; Experience</Link>
                         </li>
-                        <li className='p-4'>
+                        <li className='p-4 hidden md:block'>
                         <Link href='/#work'>&#47;&#47; Work</Link>
                         </li>
-                        <li className='p-4'>
+                        <li className='p-4 hidden md:block'>
                         <Link href='/#connect'>&#47;&#47; Connect</Link>
                         </li>
                     </ul>
     
                     {/* Mobile Button */}
-                    <div onClick={handleDropDown} className='block sm:hidden z-10'>
+                    <div onClick={handleDropDown} className='block md:hidden z-10 p-8'>
                         {dropDown ? <AiOutlineClose size={20} />
                             : <AiOutlineMenu size={20} />}
                     </div>
