@@ -9,11 +9,10 @@ function Navbar() {
         setDropDown(!dropDown);
     }
     return (
-            <div className= 'fixed left-0 -top-3 w-full z-10 backdrop-blur-sm'>
-                <div className='flex md:justify-center m-auto p-3 text-white justify-between'>
+            <div className= 'fixed left-0 -top-3 w-full z-10 backdrop-blur-sm flex md:justify-center justify-between m-auto p-2 text-white'>
                     <ul className='flex justify-center items-center'>
                         <li className='p-4 mr-10'>
-                            <h1 className='font-bold text-2xl text-white'>🌴Hao Jie</h1>
+                            <h1 className='font-bold text-2xl text-emerald-400'>🌴Hao Jie</h1>
                         </li>
                         <li className='p-4 hidden md:block'>
                             <Link href='/'>&#47;&#47; Home</Link>
@@ -56,9 +55,7 @@ function Navbar() {
                             </li>
                         </ul>
                     </div>
-                </div>
             </div>
-    
     )
 }
 
