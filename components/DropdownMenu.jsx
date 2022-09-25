@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -29,20 +30,21 @@ export default function DropdownMenu() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
+                <Link href="/#">
                 <a
-                  href="/#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
                   )}
                 >Home
                 </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
+                <Link href="/#experience">
                 <a
-                  href="/#experience"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
@@ -50,12 +52,13 @@ export default function DropdownMenu() {
                 >
                   Experience
                 </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
+                <Link href="/#work">
                 <a
-                  href="/#work"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
@@ -63,10 +66,12 @@ export default function DropdownMenu() {
                 >
                   Work
                 </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
+                <Link href="/#connect">
                 <a
                   href="/#connect"
                   className={classNames(
@@ -76,6 +81,7 @@ export default function DropdownMenu() {
                 >
                   Contact
                 </a>
+                </Link>
               )}
             </Menu.Item>
           </div>
