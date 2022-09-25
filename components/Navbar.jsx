@@ -10,7 +10,7 @@ function Navbar() {
     }
     return (
             <div className= 'fixed left-0 -top-3 w-full z-10 backdrop-blur-sm'>
-                <div className='flex justify-center m-auto p-3 text-white'>
+                <div className='flex md:justify-center m-auto p-3 text-white justify-between'>
                     <ul className='flex justify-center items-center'>
                         <li className='p-4 mr-10'>
                             <h1 className='font-bold text-2xl text-white'>🌴Hao Jie</h1>
