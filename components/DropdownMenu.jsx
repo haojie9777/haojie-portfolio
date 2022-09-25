@@ -31,48 +31,48 @@ export default function DropdownMenu() {
             <Menu.Item>
               {({ active }) => (
                 <Link href="/#">
-                <a
+                <button
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
                   )}
                 >Home
-                </a>
+                </button>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link href="/#experience">
-                <a
+                <button
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
                   )}
                 >
                   Experience
-                </a>
+                </button>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link href="/#work">
-                <a
+                <button
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
                   )}
                 >
                   Work
-                </a>
+                </button>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <Link href="/#connect">
-                <a
+                <button
                   href="/#connect"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
@@ -80,7 +80,7 @@ export default function DropdownMenu() {
                   )}
                 >
                   Contact
-                </a>
+                </button>
                 </Link>
               )}
             </Menu.Item>
