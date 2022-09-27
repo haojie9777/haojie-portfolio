@@ -13,7 +13,7 @@ function Navbar() {
                     <Link href='/'>&#47;&#47; Home</Link>
                 </li>
                 <li className='p-4 hidden md:block'>
-                    <Link href='/#experience'>&#47;&#47; Experience</Link>
+                    <Link href='/#expertise'>&#47;&#47; Expertise</Link>
                 </li>
                 <li className='p-4 hidden md:block'>
                     <Link href='/#work'>&#47;&#47; Work</Link>

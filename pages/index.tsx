@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Hero from "../components/Hero"
-import Experience from "../components/Experience"
+import Expertise from "../components/Expertise"
 import Connect from "../components/Connect"
 import Work from "../components/Work"
 const Home: NextPage = () => {
@@ -12,14 +12,16 @@ const Home: NextPage = () => {
         <meta name="description" content="Hao Jie's Homepage" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex-col'>
-      <Hero/>
-      <Experience/>
-      <Work/>
-      <Connect/>
+      <div className='flex-col content-center'>
+        <Hero />
+        <Expertise />
+        <Work />
+        <Connect />
       </div>
     </div>
   )
 }
 
 export default Home
+
+
