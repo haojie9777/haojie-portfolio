@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Hao Jie's Homepage" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex-col content-center'>
+      <div>
         <Hero />
         <Expertise />
         <Work />
