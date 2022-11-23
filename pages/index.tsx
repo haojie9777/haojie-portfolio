@@ -12,11 +12,19 @@ const Home: NextPage = () => {
         <meta name="description" content="Hao Jie's Homepage" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex-col content-center'>
-        <Hero />
-        <Expertise />
-        <Work />
-        <Connect />
+      <div className='flex flex-col justify-center items-center'>
+        <div className="mb-10 text-start">
+          <Hero />
+        </div>
+        <div className='mt-10'>
+          <Expertise />
+        </div>
+        <div>
+          <Work />
+        </div>
+        <div>
+          <Connect />
+        </div>
       </div>
     </div>
   )

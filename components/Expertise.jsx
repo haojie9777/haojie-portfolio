@@ -12,4 +12,4 @@ const Expertise = () => {
   </div>
   )
 }
-export default Expertise
+export default Expertise  
