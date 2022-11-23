@@ -12,7 +12,7 @@ const Hero = () => {
         <p className='mt-10 text-l'>I am predominantly a backend developer,
           with a keen interest <br></br> in leveraging technology to empower the lives of people around me.<br />
         </p>
-        <p className='mt-2 text-l'>Feel free to connect with me regarding any opportunities and / or for coffee :D</p>
+        <p className='mt-2 text-l'>Feel free to connect with me regarding any opportunities or for coffee :D</p>
       </div>
     </div>
   )
