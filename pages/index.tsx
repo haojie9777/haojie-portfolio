@@ -6,7 +6,7 @@ import Connect from "../components/Connect"
 import Work from "../components/Work"
 const Home: NextPage = () => {
   return (
-    <div className="bg-zinc-800 flex flex-col items-center">
+    <div className="bg-zinc-900 flex flex-col items-center">
       <Head>
         <title>Hao Jie - Homepage</title>
         <meta name="description" content="Hao Jie's Homepage" />
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <div className='flex flex-col justify-start items-start text-justify'>
           <Hero />
           <Expertise />
-          <Work />
+          <Work />    
           <Connect />
       </div>
     </div>
