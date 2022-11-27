@@ -1,80 +1,29 @@
-import React, { useState, useEffect } from 'react'
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import React from 'react'
 import Link from 'next/link'
+import DropdownMenu from '../components/DropdownMenu'
 
 function Navbar() {
-    const [nav, setNav] = useState(false);
-    const [color, setColor] = useState('transparent');
-    const [textColor, setTextColor] = useState('white');
-
-
-    const handleNav = () => {
-        setNav(!nav);
-    }
-
-    useEffect(() => {
-        const changeColor = () => {
-            if (window.scrollY >= 40) {
-                setColor('#ffffff');
-                setTextColor('#000000');
-            } else {
-                setColor('transparent');
-                setTextColor('#ffffff');
-            }
-        };
-        window.addEventListener('scroll', changeColor)
-    }, [])
-
     return (
-        <div style={{ backgroundColor: `${color}` }}
-            className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-            <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
-                <Link href='/'>
-                    <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-                        Public Class Portfolio  {'{'}</h1>
-                </Link>
-                <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
-                    <li className='p-4'>
-                        <Link href='/'>Home</Link>
-                    </li>
-                    <li className='p-4'>
-                    <Link href='/#experience'>Experience</Link>
-                    </li>
-                    <li className='p-4'>
-                    <Link href='/#work'>Work</Link>
-                    </li>
-                    <li className='p-4'>
-                    <Link href='/#connect'>Connect</Link>
-                    </li>
-                </ul>
-
-                {/* Mobile Button */}
-                <div onClick={handleNav} className='block sm:hidden z-10 '>
-                    {nav ? <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
-                        : <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />}
-                </div>
-                {/* Mobile Menu */}
-                <div className={
-                    nav
-                        ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-                        : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-
-                }>
-                    <ul>
-                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/'>Home</Link>
-                        </li>
-                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/about'>About</Link>
-                        </li>
-                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/projects'>Projects</Link>
-                        </li>
-                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/contact'>Contact</Link>
-                        </li>
-                    </ul>
-                </div>
+        <div className='fixed left-0 -top-3 w-full z-10 backdrop-blur-sm flex md:justify-center justify-between m-auto p-2 text-white'>
+            <ul className='flex justify-center items-center'>
+                <li className='p-4 mr-10'>
+                    <h1 className='font-bold text-2xl text-emerald-300'>🌴Hao Jie</h1>
+                </li>
+                <li className='p-4 hidden md:block'>
+                    <Link href='/'>&#47;&#47; Home</Link>
+                </li>
+                <li className='p-4 hidden md:block'>
+                    <Link href='/#expertise'>&#47;&#47; Expertise</Link>
+                </li>
+                <li className='p-4 hidden md:block'>
+                    <Link href='/#work'>&#47;&#47; Work</Link>
+                </li>
+                <li className='p-4 hidden md:block'>
+                    <Link href='/#connect'>&#47;&#47; Connect</Link>
+                </li>
+            </ul>
+            <div className ='m-4 md:hidden'>
+                <DropdownMenu></DropdownMenu>
             </div>
         </div>
     )
