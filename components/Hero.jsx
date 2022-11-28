@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div id='hero' className='w-1/2 flex flex-col justify-center items-center h-screen mt-[0px] p-5'>
+    <div id='hero' className='flex flex-col justify-center items-center h-screen mt-[100px] p-5'>
       <div className='mb-10'>
         <img src="/cat-gif.gif"></img>
       </div>

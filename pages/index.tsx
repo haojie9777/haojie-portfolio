@@ -12,10 +12,13 @@ const Home: NextPage = () => {
         <meta name="description" content="Hao Jie's Homepage" />
         <link rel="icon" href="/icons8-cat-32.png" />
       </Head>
-      <Hero />
-      <Expertise />
-      <Work />
-      <Connect />
+      <div className="w-3/4">
+        <Hero />
+        <Expertise />
+        <Work />
+        <Connect />
+      </div>
+
     </div>
   )
 }
