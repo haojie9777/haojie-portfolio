@@ -8,18 +8,18 @@ function Navbar() {
             <ul className='flex justify-center items-center'>
                 <li className='p-4 mr-10'>
                     <h1 className='font-bold text-2xl text-emerald-300'>Hao Jie</h1>
+                </li>   
+                <li className='p-4 hidden md:block'>
+                    <Link href='/'>&lt; Home &#47;&gt;</Link>
                 </li>
                 <li className='p-4 hidden md:block'>
-                    <Link href='/'>&#47;&#47; Home</Link>
+                    <Link href='/#skills'>&lt; Skills &#47;&gt;</Link>
                 </li>
                 <li className='p-4 hidden md:block'>
-                    <Link href='/#expertise'>&#47;&#47; Experience</Link>
+                    <Link href='/#bio'>&lt; Bio &#47;&gt;</Link>
                 </li>
                 <li className='p-4 hidden md:block'>
-                    <Link href='/#work'>&#47;&#47; Works</Link>
-                </li>
-                <li className='p-4 hidden md:block'>
-                    <Link href='/#connect'>&#47;&#47; Connect</Link>
+                    <Link href='/#connect'>&lt; Find Me &#47;&gt;</Link>
                 </li>
             </ul>
             <div className ='m-4 md:hidden'>

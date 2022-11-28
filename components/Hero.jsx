@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div id='hero' className='flex flex-col justify-center items-center h-screen mt-[100px] p-5'>
       <div className='mb-10'>
-        <img className = 'animate-pulse' src="/cat-gif.gif"></img>
+        <img className = '' src="/cat-gif.gif"></img>
       </div>
         <h1 className='mr-auto text-7xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400'>Hao Jie</h1>
         <p className='text-amber-400 mr-auto'>Software Engineer / Tech Enthusiast / Caffeine Junkie / Cat Person🐾</p>

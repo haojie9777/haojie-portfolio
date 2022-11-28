@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Hero from "../components/Hero"
-import Expertise from "../components/Expertise"
+import Expertise from "../components/Skills"
 import Connect from "../components/Connect"
-import Work from "../components/Work"
+import Work from "../components/Bio"
 const Home: NextPage = () => {
   return (
     <div className="bg-zinc-900 flex flex-col items-center justify-center">
