@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Work = () => {
+const Bio = () => {
   return (
     <div id='bio' className='flex items-center justify-center h-screen'>
     <div className='p-5 text-white z-[2] mt-[-10rem]'>
@@ -10,4 +10,4 @@ const Work = () => {
 </div>
   )
 }
-export default Work
+export default Bio
