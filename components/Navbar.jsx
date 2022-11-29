@@ -10,16 +10,16 @@ function Navbar() {
                     <h1 className='font-bold text-2xl text-emerald-300'>Hao Jie</h1>
                 </li>   
                 <li className='p-4 hidden md:block'>
-                    <Link href='/'>&lt; Home &#47;&gt;</Link>
+                    <Link href='/'><a>&lt; Home &#47;&gt;</a></Link>
                 </li>
                 <li className='p-4 hidden md:block'>
-                    <Link href='/#skills'>&lt; Skills &#47;&gt;</Link>
+                    <Link href='/#skills'><a>&lt; Skills &#47;&gt;</a></Link>
                 </li>
                 <li className='p-4 hidden md:block'>
-                    <Link href='/#bio'>&lt; Bio &#47;&gt;</Link>
+                    <Link href='/#bio'><a>&lt; Bio &#47;&gt;</a></Link>
                 </li>
                 <li className='p-4 hidden md:block'>
-                    <Link href='/#connect'>&lt; Find Me &#47;&gt;</Link>
+                    <Link href='/#connect'><a>&lt; Find Me &#47;&gt;</a></Link>
                 </li>
             </ul>
             <div className ='m-4 md:hidden'>

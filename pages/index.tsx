@@ -18,7 +18,6 @@ const Home: NextPage = () => {
         <Bio />
         <Connect />
       </div>
-
     </div>
   )
 }

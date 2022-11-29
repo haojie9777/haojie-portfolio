@@ -1,17 +1,18 @@
 import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Connect = () => {
   return (
-    <div id='connect' className='flex items-center justify-center h-screen'>
-    <div className='p-5 text-white z-[2] mt-[-10rem]'>
-      <h2 className='text-7xl font-bold'>Find Me</h2>
-      <p className='py-5 text-l'>haojie9777@gmail.com</p>
-      <p className='py-5 text-l'>Linkedin:  </p>
-      <p className='py-5 text-l'>@haojie9777</p>
-
-
+    <div id='connect' className='flex flex-col items-center justify-center h-screen text-white'>
+      <h2 className='text-7xl font-bold mb-10'>Find Me</h2>
+        <button className='flex flex-row items-center hover:bg-gray-500 rounded-md p-1'>
+          <Link href="https://github.com/haojie9777" target="_blank">
+            <Image quality="100" width="50" height="50" src='/github-light.png'></Image>
+          </Link>
+          <span className='m-5 text-cyan-400 text-lg'>@haojie9777</span>
+        </button>
     </div>
-</div>
   )
 }
 export default Connect  

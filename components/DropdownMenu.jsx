@@ -36,7 +36,7 @@ export default function DropdownMenu() {
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
                   )}
-                >Home
+                ><a>Home</a>
                 </button>
                 </Link>
               )}
@@ -50,7 +50,7 @@ export default function DropdownMenu() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Skills
+                 <a>Skills</a> 
                 </button>
                 </Link>
               )}
@@ -64,7 +64,7 @@ export default function DropdownMenu() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Bio
+                  <a>Bio</a>
                 </button>
                 </Link>
               )}
@@ -79,7 +79,7 @@ export default function DropdownMenu() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Find Me
+                  <a>Find Me</a>
                 </button>
                 </Link>
               )}
