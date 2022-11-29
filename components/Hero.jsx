@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
     <div id='hero' className='flex flex-col justify-center items-center h-screen mt-[100px]'>
       <div className='mb-10'>
-        <img className = 'w-80' src="/cat-gif.gif"></img>
+        <Image width="300" height="300" src="/cat-gif.gif"></Image>
       </div>
         <h1 className='mr-auto text-5xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400'>Hao Jie</h1>
         <p className='text-amber-400 mr-auto text-sm'>Software Engineer / Tech Enthusiast / Caffeine Junkie / Cat Person 🐾</p>
