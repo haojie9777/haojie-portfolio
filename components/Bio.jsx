@@ -4,7 +4,7 @@ import Timeline from '../components/Timeline'
 const Bio = () => {
   return (
     <div id='bio' className='flex flex-col items-center justify-center h-screen text-white'>
-      <h2 className='text-7xl font-bold'>Bio</h2>
+      <h2 className='text-7xl font-bold mb-5'>Bio</h2>
       <Timeline/>
 </div>
   )
