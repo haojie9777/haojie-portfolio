@@ -4,8 +4,8 @@ import Image from 'next/image'
 const Connect = () => {
   return (
     <div id='connect' className='flex flex-col items-center justify-center h-screen text-white'>
-      <div className='to-animate opacity-0 transition-all duration-1000'>
       <h2 className='text-7xl font-bold mb-10'>Find Me</h2>
+      <div className='to-animate opacity-0 transition-all duration-1000'>
           <a href="https://github.com/haojie9777" target="_blank" rel="noreferrer">
           <button className='flex flex-row items-center hover:bg-gray-500 rounded-md p-1'>
           <Image quality="100" width="50" height="50" src='/github-light.png'></Image>
@@ -25,8 +25,6 @@ const Connect = () => {
           </button>
           </a>
       </div>
-      
-         
     </div>
   )
 }
