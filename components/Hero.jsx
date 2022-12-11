@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div id='hero' className='flex flex-col justify-center items-center h-screen mt-[100px]'>
+    <div id='hero' className='to-animate opacity-0 transition-all duration-1000
+     flex flex-col justify-center items-center h-screen mt-[100px]'>
       <div className='mb-10'>
         <Image width="300" height="300" src="/cat-gif.gif"></Image>
       </div>

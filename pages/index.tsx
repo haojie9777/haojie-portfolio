@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Hero from "../components/Hero"
@@ -12,8 +13,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Hao Jie's Homepage" />
         <link rel="icon" href="/icons8-cat-back-view-32.png" />
       </Head>
+      <Script src="app.js" strategy='lazyOnload'></Script>
       <div className="w-5/6 md:w-1/3">
-        <Hero />
+        <Hero/>
         <Skills />
         <Bio />
         <Connect />
@@ -23,5 +25,4 @@ const Home: NextPage = () => {
 }
 
 export default Home
-
 
