@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import DropdownMenu from '../components/DropdownMenu'
+import DropdownMenu2 from '../components/DropdownMenu2'
+
 
 function Navbar() {
     return (

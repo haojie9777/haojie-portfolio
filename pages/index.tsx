@@ -5,6 +5,7 @@ import Hero from "../components/Hero"
 import Skills from "../components/Skills"
 import Connect from "../components/Connect"
 import Bio from "../components/Bio"
+
 const Home: NextPage = () => {
   return (
     <div className="bg-zinc-900 flex flex-col items-center justify-center">
