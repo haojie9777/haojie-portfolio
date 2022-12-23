@@ -8,7 +8,7 @@ import Bio from "../components/Bio"
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-hero flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center">
       <Head>
         <title>Hao Jie - Homepage</title>
         <meta name="description" content="Hao Jie's Homepage" />

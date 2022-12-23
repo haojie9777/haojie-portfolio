@@ -11,7 +11,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      'hero': "url('../public/images/denim.png')"
+      'hero': "url('../public/images/nami.png')"
     },
   },
   extend: {
