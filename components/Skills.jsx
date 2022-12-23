@@ -13,7 +13,8 @@ const Skills = () => {
         <p>Spring Boot</p>
         </div>
         <div className='flex flex-col items-center justify-center'>
-        <p className='m-6 text-3xl'>Frontend</p>
+        <p className='mt-3 text-3xl'>Frontend</p>
+        <p className='mb-3 text-sm font-bold text-green-400'>[website was built from these]</p>
         <p>React</p>
         <p>NextJS</p>
         <p>Tailwind</p>
@@ -23,6 +24,11 @@ const Skills = () => {
         <p>MySQL</p>
         <p>Kubernates</p>
         <p>Apache RocketMQ</p>
+          </div>
+        <div className='flex flex-col items-center justify-center'>
+        <p className='m-6 text-3xl'>Testing</p>
+        <p>Mockito</p>
+        <p>JMeter</p>
           </div>
       </div>
     </div>

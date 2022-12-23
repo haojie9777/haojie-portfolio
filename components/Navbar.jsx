@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import DropdownMenu from '../components/DropdownMenu'
-import DropdownMenu2 from '../components/DropdownMenu2'
 
 
 function Navbar() {
@@ -12,7 +11,7 @@ function Navbar() {
                     <h1 className='font-bold text-2xl text-emerald-300'>Hao Jie</h1>
                 </li>   
                 <li className='p-4 hidden md:block'>
-                    <Link href='/'><a>&lt; Home &#47;&gt;</a></Link>
+                    <Link href='/'><a>&lt; About &#47;&gt;</a></Link>
                 </li>
                 <li className='p-4 hidden md:block'>
                     <Link href='/#skills'><a>&lt; Skills &#47;&gt;</a></Link>

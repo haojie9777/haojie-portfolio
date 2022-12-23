@@ -9,10 +9,10 @@ module.exports = {
     './src/**/*.{html,js}',
      './node_modules/tw-elements/dist/js/**/*.js'
   ],
-  plugins: [
-    require('tw-elements/dist/plugin')
-  ],
   theme: {
+    backgroundImage: {
+      'hero': "url('../public/images/denim.png')"
+    },
   },
   extend: {
     animation: {
