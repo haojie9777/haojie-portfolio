@@ -33,11 +33,6 @@ const Timeline = () => {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023</time>
                 <h3 className="text-lg font-semibold text-white dark:text-white">Embark on Master of Computer Science from Georgia Tech</h3>
             </li>
-            <li className="to-animate opacity-0 transition-all duration-1000 mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-green-300 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2024</time>
-                <h3 className="text-lg font-semibold text-white dark:text-white">Pack my bags and embrace the digital nomad lifestyle</h3>
-            </li>
         </ol>
     )
 }
