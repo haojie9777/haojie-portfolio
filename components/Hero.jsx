@@ -1,19 +1,28 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div id='hero' className='flex items-center justify-center h-screen mt-[100px]'>
-      <div className='p-5 text-white mt-[-6rem]'>
-        <div className='mb-10'>
-          <img src="/cat-gif.gif"></img>
-        </div>
-        <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-pink-800'>Hao Jie</h1>
-        <p className='text-l'>Software engineer / tech enthusiast / cat lover🐾</p>
-        <p className='mt-10 text-l'>I am predominantly a backend developer,
-          with a keen interest in leveraging <br></br>technology to empower the lives of people around me.<br />
-        </p>
-        <p className='mt-2 text-l'>Feel free to connect with me regarding any opportunities or for coffee :D</p>
+    <div id='hero' className='
+     flex flex-col justify-center items-center h-screen mt-[100px]'>
+      <div className='mb-10'>
+        <Image width="300" height="300" src="/hiking-pic-ok.png" quality='100'></Image>
       </div>
+      <h1 className='to-animate opacity-0 transition-all duration-1000 mr-auto text-5xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400'>Hao Jie</h1>
+      <p className='to-animate opacity-0 transition-all duration-1000 text-amber-400 mr-auto text-sm'>Software Engineer / Tech Enthusiast / Caffeine Junkie / Cat Person 🐾</p>
+      <p className='to-animate opacity-0 transition-all duration-1000 mt-10 text-justify text-white'>I am predominantly a backend developer, but I do dabble in frontend sometimes.
+        I wish to leverage technology to empower the lives of people around me. I am involved in designing and engineering distributed system solutions
+        that are highly scalable and reliable in my current job. Feel free to connect with me regarding anything :D
+      </p>
+      <div className='to-animate opacity-0 transition-all duration-1000 mt-5 mb-10'>
+        <a href="/HaoJie_Resume_080122.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="bg-transparent hover:bg-green-500 text-xl text-white hover:text-white
+         py-2 px-4 border border-emerald-500 hover:border-transparent rounded">
+            My Resume
+          </button>
+        </a>
+      </div>
+
     </div>
   )
 }

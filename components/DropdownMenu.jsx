@@ -10,7 +10,7 @@ export default function DropdownMenu() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center rounded-md border bg-white border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+        <Menu.Button className="inline-flex w-full justify-center rounded-md border bg-white border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 focus:ring-offset-gray-100">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
           </svg>
@@ -26,45 +26,45 @@ export default function DropdownMenu() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="py-1">
+        <Menu.Items className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <div className="py-1 flex flex-col">
             <Menu.Item>
               {({ active }) => (
                 <Link href="/#">
                 <button
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    'block px-4 py-2 text-md text-left'
                   )}
-                >Home
+                ><a>About</a>
                 </button>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link href="/#expertise">
+                <Link href="/#skills">
                 <button
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    'block px-4 py-2 text-md text-left'
                   )}
                 >
-                  Expertise
+                 <a>Skills</a> 
                 </button>
                 </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <Link href="/#work">
+                <Link href="/#bio">
                 <button
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    'block px-4 py-2 text-md text-left'
                   )}
                 >
-                  Work
+                  <a>Bio</a>
                 </button>
                 </Link>
               )}
@@ -76,10 +76,10 @@ export default function DropdownMenu() {
                   href="/#connect"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
+                    'block px-4 py-2 text-md text-left'
                   )}
                 >
-                  Connect
+                  <a>Find Me</a>
                 </button>
                 </Link>
               )}
