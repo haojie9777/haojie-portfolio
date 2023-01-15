@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
 
-//may only import css styles in here 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
