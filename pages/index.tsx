@@ -2,8 +2,7 @@ import Script from 'next/script'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Hero from "../components/Hero"
-import Projects from "../components/projects"
-import Skills from "../components/Skills"
+import Works from "../components/Works"
 import Connect from "../components/Connect"
 import Bio from "../components/Bio"
 
@@ -18,8 +17,7 @@ const Home: NextPage = () => {
       <Script src="app.js" strategy='lazyOnload'></Script>
       <div className="w-5/6 md:w-1/3">
         <Hero/>
-        <Projects/>
-        <Skills />
+        <Works/>
         <Bio />
         <Connect />
       </div>
