@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const Works = () => {
@@ -17,7 +18,27 @@ const Works = () => {
                         augmented reality for guitar learning.
                     </p>
                     <div className='mt-3'>
-                    <Image width="250" height="200" src="/images/guitAR.png" quality='100'></Image>
+                        <a href="https://github.com/haojie9777/GuitAR" target="_blank" rel="noopener noreferrer">
+                            <button>
+                                <Image width="250" height="200" src="/images/guitAR.png" quality='100'></Image>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div className='to-animate opacity-0 transition-all duration-1000 m-auto mt-5 flex flex-col items-center'>
+                    <p className='mt-3 m-3 text-4xl font-bold text-green-400'>
+                        <span>Oliver</span>
+                    </p>
+                    <p className='text-sm text-justify'>A telegram bot providing access to gpt-3 functionalities such as
+                        text completion and other features.
+                    </p>
+                    <div className='mt-3'>
+                        <a href="https://github.com/haojie9777/gpt-3-oliver-bot" target="_blank" rel="noopener noreferrer">
+                            <button>
+                                <Image width="250" height="200" src="/images/gpt-3-oliver-bot.png" quality='100'></Image>
+                            </button>
+                        </a>
+
                     </div>
                 </div>
             </div>
