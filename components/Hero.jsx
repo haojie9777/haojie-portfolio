@@ -9,7 +9,7 @@ const Hero = () => {
         <Image width="300" height="300" src="/hiking-pic-ok.png" quality='100'></Image>
       </div>
       <h1 className='to-animate opacity-0 transition-all duration-1000 mr-auto text-4xl font-medium text-white'>
-        Hi, I'm <span className='text-green-400'>Hao Jie</span> </h1>
+        Hi, I&apos;m <span className='text-green-400 font-bold'>Hao Jie</span> </h1>
 
       <p className='to-animate opacity-0 transition-all duration-1000 mt-10 text-justify text-white'>
         I am predominantly a backend developer, but I do dabble in frontend sometimes.

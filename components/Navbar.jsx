@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import DropdownMenu from '../components/DropdownMenu'
+import Image from 'next/image'
 
 
 function Navbar() {
@@ -8,8 +9,15 @@ function Navbar() {
         <div className='fixed left-0 -top-3 w-full z-10 backdrop-blur-sm flex md:justify-center justify-between m-auto p-2 text-white'>
             <ul className='flex justify-center items-center'>
                 <li className='p-4 mr-10'>
-                    <h1 className='font-bold text-2xl text-emerald-300'>Hao Jie</h1>
-                </li>   
+                    <a href="/#">
+                        <h2 className='text-3xl text-white font-semibold'>
+                            <span className="invert">
+                                <Image  width="30" height="30" src="/icons8-cat-footprint-100.png" quality='100'>
+                                </Image>
+                            </span>
+                            &nbsp;Hao Jie</h2>
+                    </a>
+                </li>
                 <li className='p-4 hidden md:block'>
                     <Link href='/'><a>&lt; About &#47;&gt;</a></Link>
                 </li>
@@ -23,7 +31,7 @@ function Navbar() {
                     <Link href='/#connect'><a>&lt; Find Me &#47;&gt;</a></Link>
                 </li>
             </ul>
-            <div className ='m-4 md:hidden'>
+            <div className='m-4 md:hidden'>
                 <DropdownMenu></DropdownMenu>
             </div>
         </div>
