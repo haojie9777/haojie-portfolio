@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <Head>
-        <title>Hao Jie - Homepage</title>
+        <title>Hao Jie</title>
         <meta name="description" content="Hao Jie's Homepage" />
         <link rel="icon" href="/icons8-cat-back-view-32.png" />
       </Head>
