@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Works = () => {
     return (
         <div id="works" className='
-    flex flex-col items-center justify-center h-screen text-white mt-[150px] mobile:mt-[0px] lg:mt-[150px] '>
+    flex flex-col items-center justify-center h-screen text-white mt-[200px] mobile:mt-[0px] lg:mt-[150px] '>
             <h2 className='text-7xl font-bold '>Works</h2>
             <div className=' flex-col items-center justify-center'>
                 <div className='to-animate opacity-0 transition-all duration-1000 m-auto mt-5 flex flex-col items-center'>
