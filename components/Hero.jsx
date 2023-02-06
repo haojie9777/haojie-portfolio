@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <div id='hero' className='
-     flex flex-col justify-center items-center h-screen mt-[100px]'>
+     flex flex-col justify-center items-center h-screen mt-[200px] mobile:mt-[100px]'>
       <div className='mb-10'>
         <Image width="300" height="300" src="/hiking-pic-ok.png" quality='100'></Image>
       </div>
