@@ -34,7 +34,7 @@ const Works = () => {
                     <div className='mt-3'>
                         <a href="https://github.com/haojie9777/gpt-3-oliver-bot" target="_blank" rel="noopener noreferrer">
                             <button>
-                                <Image width="250" height="250" src="/images/gpt-3-oliver-bot.png" quality='100'></Image>
+                                <Image width="350" height="300" src="/images/oliver.PNG" quality='100'></Image>
                             </button>
                         </a>
 
