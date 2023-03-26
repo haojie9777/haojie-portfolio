@@ -11,7 +11,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      'hero': "url('../public/images/nami.png')"
+      'hero': "url('../public/images/space.jpg')"
     }, 
     screens: {
       'very-small-mobile': '375px',

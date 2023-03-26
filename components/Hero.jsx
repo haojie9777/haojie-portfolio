@@ -39,7 +39,7 @@ const Hero = () => {
         that are highly scalable and reliable in my current job. Feel free to connect with me regarding anything :D
       </p>
       <div className='to-animate opacity-0 transition-all duration-1000 mt-5 mb-10'>
-        <a href="/HaoJie_Resume_080222.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/HaoJie_Resume_260323.pdf" target="_blank" rel="noopener noreferrer">
           <button className="bg-transparent hover:bg-green-500 text-xl text-white hover:text-white
          py-2 px-4 border border-emerald-500 hover:border-transparent rounded">
             My Resume
