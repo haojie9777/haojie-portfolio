@@ -27,19 +27,18 @@ const Hero = () => {
     <div id='hero' className='
      flex flex-col justify-center items-center h-screen mt-[200px] mobile:mt-[100px]'>
       <div className='mb-10'>
-        <Image width="300" height="300" src="/hiking-pic-ok.png" quality='100'></Image>
+        <Image width="300" height="300" src="/haojie_dp_circled.png" quality='100'></Image>
       </div>
       <h1 className='to-animate opacity-0 transition-all duration-1000 mr-auto text-4xl font-medium text-white'>
         Hi, I&apos;m <span id="my-name" className='text-green-400'></span> </h1>
     
       <p className='to-animate opacity-0 transition-all duration-1000 mt-10 text-justify text-white'>
-        I am predominantly a backend guy, but I do dabble in frontend sometimes.
-        I wish to leverage on technology to empower the lives of people around me. Currently involved in designing and
-         engineering distributed system solutions
-        that are highly scalable and reliable in my current job. Feel free to connect with me regarding anything :D
+        I am passionate in backend development work, as I find the challenge of making large scale
+        systems work together to be very interesting. I believe clean and readable coding is a form of art on its own.
+        Ultimately, I want to be a software engineer that can make a positive impact on the world. 
       </p>
       <div className='to-animate opacity-0 transition-all duration-1000 mt-5 mb-10'>
-        <a href="/HaoJie_Resume_260323.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/HaoJie_Resume_200823.pdf" target="_blank" rel="noopener noreferrer">
           <button className="bg-transparent hover:bg-green-500 text-xl text-white hover:text-white
          py-2 px-4 border border-emerald-500 hover:border-transparent rounded">
             My Resume

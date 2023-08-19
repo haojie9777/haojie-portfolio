@@ -10,7 +10,7 @@ const Works = () => {
             <div className=' flex-col items-center justify-center'>
                 <div className='to-animate opacity-0 transition-all duration-1000 m-auto mt-5 flex flex-col items-center'>
                     <p className='mt-3 m-3 text-4xl font-bold text-green-400'>
-                        <span>guit</span>
+                        <span>guitAR</span>
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>AR</span>
                     </p>
                     <p className='text-sm text-justify'>A computer vision project exploring the use of markerless
