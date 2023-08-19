@@ -38,7 +38,7 @@ const Hero = () => {
         Ultimately, I want to be a software engineer that can make a positive impact on the world. 
       </p>
       <div className='to-animate opacity-0 transition-all duration-1000 mt-5 mb-10'>
-        <a href="/HaoJie_Resume_200823.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/HaoJie_Resume_190823.pdf" target="_blank" rel="noopener noreferrer">
           <button className="bg-transparent hover:bg-green-500 text-xl text-white hover:text-white
          py-2 px-4 border border-emerald-500 hover:border-transparent rounded">
             My Resume
