@@ -25,8 +25,13 @@ const Timeline = () => {
             </li>
             <li className="to-animate opacity-0 transition-all duration-1000 mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-green-300 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022 to present</time>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022 Jun - 2023 Dec</time>
                 <h3 className="text-lg text-white dark:text-white">Backend Software Engineer at SeaMoney / Shopee / Maribank, working on the latest digital bank in Singapore</h3>
+            </li>
+            <li className="to-animate opacity-0 transition-all duration-1000 mb-10 ml-4">
+                <div className="absolute w-3 h-3 bg-green-300 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023 Dec - present</time>
+                <h3 className="text-lg text-white dark:text-white">Backend Software Engineer at TikTok, writing code that powers the social media giant with over 1 billion monthly active users</h3>
             </li>
         </ol>
     )
